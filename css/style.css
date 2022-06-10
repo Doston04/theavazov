@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#bodyRu {
+    font-family: 'Nunito', sans-serif;
+}
+
+#footerRu {
     font-family: var(--main-font);
 }
 
@@ -27,6 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: var(--main-font);
 }
 
 main {
